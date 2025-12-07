@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
 
     private PlayerInputActions controls;
     private Rigidbody rb;
+    public Rigidbody Rb => rb; // read-only property
+
 
     private void Awake()
     {
